@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReportActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#262626"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:layout_width="match_parent"/>
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_below="@id/toolbar"
+        android:id="@+id/imgData"
+        android:layout_width="125sp"
+        android:layout_height="125sp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_launcher_background"
+        />
+
+
+
+    <TextView
+        android:layout_below="@+id/imgData"
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/txtSite"
+        android:layout_below="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/review"
+        android:layout_marginTop="20sp"
+        android:layout_below="@+id/txtSite"
+        android:layout_width="match_parent"
+        android:text="@string/app_name"
+        android:textSize="18sp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnPost"
+        android:background="@android:color/holo_orange_light"
+        android:layout_below="@+id/review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/post"
+        />
+
+</RelativeLayout>

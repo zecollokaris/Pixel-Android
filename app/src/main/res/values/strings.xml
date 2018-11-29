@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Finder</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="signup">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="forgot">Forgot Password ?</string>
+    <string name="post">Post</string>
+</resources>

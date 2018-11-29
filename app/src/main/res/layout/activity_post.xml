@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".PostActivity">
+
+
+    <ImageView
+        android:id="@+id/postImage"
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="center"
+        android:background="@color/colorPrimary"
+        android:tooltipText="Pick Image"
+        />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_orange_light"
+        />
+
+
+    <EditText
+        android:id="@+id/txtDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="20"/>
+    <Button
+        android:id="@+id/postData"
+        android:layout_width="wrap_content"
+        android:text="Post Data"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:padding="8sp"
+        android:background="@android:color/holo_orange_light"
+        android:layout_height="wrap_content" />
+</LinearLayout>

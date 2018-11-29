@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:background="@android:color/holo_orange_light"
+    android:padding="5sp"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/icon"
+        android:layout_width="125sp"
+        android:src="@drawable/finder"
+        android:layout_centerHorizontal="true"
+        android:layout_height="125sp" />
+
+    <EditText
+        android:textColor="#000"
+        android:id="@+id/txtName"
+        android:layout_below="@+id/icon"
+        android:layout_width="match_parent"
+        android:hint="@string/username"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:textColorHint="@android:color/black"
+        />
+
+    <EditText
+        android:layout_below="@id/txtName"
+        android:id="@+id/txtPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:maxLines="1"
+        android:textColor="#000"
+        android:inputType="textPassword"
+        android:textColorHint="@android:color/black"/>
+
+    <EditText
+        android:layout_below="@id/txtPass"
+        android:id="@+id/txtConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm"
+        android:maxLines="1"
+        android:textColor="#000"
+        android:inputType="textPassword"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:textColorHint="@android:color/black"/>
+
+
+    <LinearLayout
+        android:layout_below="@+id/txtConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btnCancel"
+           android:text="Cancel"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_style"/>
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:text="@string/signup"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_style"/>
+    </LinearLayout>
+</RelativeLayout>

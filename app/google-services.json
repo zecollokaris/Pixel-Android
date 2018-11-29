@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "99050034590",
+    "firebase_url": "https://finder-fcc8e.firebaseio.com",
+    "project_id": "finder-fcc8e",
+    "storage_bucket": "finder-fcc8e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99050034590:android:86734956ff97bb4d",
+        "android_client_info": {
+          "package_name": "com.finder.valeen.finder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99050034590-ro0a5stetat4911h6dor2cgrom7t4h7o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.finder.valeen.finder",
+            "certificate_hash": "f15e6a1fc9ee436eb01619715bb32b821d0c937d"
+          }
+        },
+        {
+          "client_id": "99050034590-dupttg24h5hlan61l58a5t0cej8v5soq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.finder.valeen.finder",
+            "certificate_hash": "ad2785d279cdc8fbc482871c938307d502e49d08"
+          }
+        },
+        {
+          "client_id": "99050034590-ck33f5hgvfblvqmhosff7es5ugprkale.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVlLqHdQYuIlOg92d22DP7OrFIIQAM8xY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99050034590-ck33f5hgvfblvqmhosff7es5ugprkale.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
