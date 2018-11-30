@@ -2,16 +2,16 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_gravity="center"
-    android:background="@android:color/holo_orange_light"
+    android:background="@drawable/register"
     android:padding="5sp"
-    android:layout_height="wrap_content">
+    android:layout_height="match_parent">
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/icon"
         android:layout_width="125sp"
-        android:src="@drawable/finder"
+        android:src="@drawable/logo"
         android:layout_centerHorizontal="true"
-        android:layout_height="125sp" />
+        android:layout_height="105sp" />
 
     <EditText
         android:textColor="#000"
