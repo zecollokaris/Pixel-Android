@@ -31,42 +31,48 @@
     <TextView
         android:layout_below="@+id/imgData"
         android:id="@+id/description"
+        android:textAlignment="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
 
     <EditText
         android:id="@+id/txtSite"
-        android:layout_below="@+id/description"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="188dp" />
 
     <TextView
         android:id="@+id/addcomment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/txtSite"
-        android:text="Add a comment"/>
-
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="173dp"
+        android:text="Add a comment" />
 
 
     <TextView
         android:id="@+id/review"
-        android:layout_marginTop="20sp"
-        android:layout_below="@+id/txtSite"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
         android:text="@string/app_name"
-        android:textSize="18sp"
-        android:layout_height="wrap_content" />
+        android:textSize="18sp" />
 
 
     <Button
         android:id="@+id/btnPost"
-        android:background="@android:color/holo_orange_light"
-        android:layout_below="@+id/addcomment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/post"
-        />
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="93dp"
+        android:layout_marginEnd="33dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="@string/post" />
 
 </RelativeLayout>

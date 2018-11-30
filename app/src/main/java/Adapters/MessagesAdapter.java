@@ -8,6 +8,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
@@ -85,7 +86,7 @@ public class MessagesAdapter extends RecyclerView.Adapter<ViewHolder> implements
 
 
 class  ViewHolder extends  RecyclerView.ViewHolder implements ItemMovement,View.OnClickListener {
-    CircleImageView circleImageView;
+    ImageView circleImageView;
     TextView txtMessage;
     TextView txtDate;
     String data;
@@ -97,7 +98,7 @@ class  ViewHolder extends  RecyclerView.ViewHolder implements ItemMovement,View.
         super(view);
         this.view=view;
         this.view.setOnClickListener(this);
-        circleImageView=(CircleImageView) view.findViewById(R.id.imgPic);
+        circleImageView=(ImageView) view.findViewById(R.id.imgPic);
         txtMessage=(TextView) view.findViewById(R.id.txtMessage);
         txtDate=(TextView) view.findViewById(R.id.txtDate);
     }

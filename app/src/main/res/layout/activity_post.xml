@@ -35,13 +35,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:maxLines="20"/>
+
     <Button
         android:id="@+id/postData"
         android:layout_width="wrap_content"
-        android:text="Post Image"
-        android:textSize="20sp"
-        android:textColor="#fff"
-        android:padding="8sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
         android:background="@android:color/holo_orange_light"
-        android:layout_height="wrap_content" />
+        android:padding="8sp"
+        android:text="Post Image"
+        android:textColor="#fff"
+        android:textSize="20sp" />
 </LinearLayout>
