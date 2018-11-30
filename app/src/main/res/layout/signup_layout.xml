@@ -8,71 +8,81 @@
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/icon"
-        android:layout_width="125sp"
+        android:layout_width="match_parent"
         android:src="@drawable/logo"
         android:layout_centerHorizontal="true"
         android:layout_height="105sp" />
 
     <EditText
-        android:textColor="#000"
         android:id="@+id/txtName"
-        android:layout_below="@+id/icon"
         android:layout_width="match_parent"
-        android:hint="@string/username"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="143dp"
         android:backgroundTint="@color/colorPrimaryDark"
+        android:hint="@string/username"
         android:inputType="textEmailAddress"
         android:maxLines="1"
-        android:textColorHint="@android:color/black"
-        />
+        android:textColor="@color/colorTransparentWhite"
+        android:textColorHint="@color/colorTransparentWhite" />
 
     <EditText
-        android:layout_below="@id/txtName"
         android:id="@+id/txtPass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/password"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="206dp"
         android:backgroundTint="@color/colorPrimaryDark"
-        android:maxLines="1"
-        android:textColor="#000"
+        android:hint="@string/password"
         android:inputType="textPassword"
-        android:textColorHint="@android:color/black"/>
+        android:maxLines="1"
+        android:textColor="@color/colorTransparentWhite"
+        android:textColorHint="@color/colorTransparentWhite" />
 
     <EditText
-        android:layout_below="@id/txtPass"
         android:id="@+id/txtConfirm"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Confirm"
-        android:maxLines="1"
-        android:textColor="#000"
-        android:inputType="textPassword"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="176dp"
         android:backgroundTint="@color/colorPrimaryDark"
-        android:textColorHint="@android:color/black"/>
+        android:hint="Confirm"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:textColor="@color/colorTransparentWhite"
+        android:textColorHint="@color/colorTransparentWhite" />
 
 
     <LinearLayout
-        android:layout_below="@+id/txtConfirm"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="67dp"
+        android:orientation="vertical"
         android:weightSum="2">
 
         <Button
-            android:id="@+id/btnCancel"
-           android:text="Cancel"
+            android:id="@+id/btnSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="37sp"
             android:layout_margin="5sp"
             android:layout_weight="1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/button_style"/>
+            android:background="@color/colorTransparentGreen"
+            android:text="@string/signup" />
 
         <Button
-            android:id="@+id/btnSignUp"
-            android:text="@string/signup"
+            android:id="@+id/btnCancel"
+            android:layout_width="match_parent"
+            android:layout_height="37sp"
             android:layout_margin="5sp"
             android:layout_weight="1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/button_style"/>
+            android:background="@color/colorTransparentGreen"
+            android:text="Cancel" />
+
+
     </LinearLayout>
 </RelativeLayout>

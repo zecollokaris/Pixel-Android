@@ -6,10 +6,11 @@
     <color name="colorGreen">#B0E855</color>
     <color name="colorTransparentPink">#FF9EA1</color>
     <color name="colorWhite">#FFFFFF</color>
-    <color name="colorTransparentWhite">#cccccc</color>
+    <color name="colorTransparentWhite">#b1cccccc</color>
     <color name="colorStandardBlack">#262626</color>
     <color name="colorDarkBlue">#001621</color>
     <color name="colorBlack">#000</color>
+    <color name="colorTransparentGreen">#61b0e855</color>
     <color name="colorCyanBlue">#0B9BE2</color>
     <color name="colorMidBlue">#032B3F</color>
     <color name="colorCoinBackground">#01242b</color>

@@ -14,7 +14,7 @@
         android:layout_height="200sp"
         android:layout_centerHorizontal="true"
         android:scaleType="center"
-        android:background="@color/colorPrimary"
+        android:background="@color/colorTransparentGreen"
         android:tooltipText="Pick Image"
         />
 
@@ -24,7 +24,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Description"
+        android:text="Caption"
         android:textSize="20sp"
         android:textColor="@android:color/holo_orange_light"
         />
@@ -38,7 +38,7 @@
     <Button
         android:id="@+id/postData"
         android:layout_width="wrap_content"
-        android:text="Post Data"
+        android:text="Post Image"
         android:textSize="20sp"
         android:textColor="#fff"
         android:padding="8sp"
