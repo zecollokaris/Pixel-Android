@@ -18,3 +18,5 @@ This is an Android photo uploading application that users can upload photos and 
 - User can upload photos. 
 
 - Users can comment on uploaded photos.
+
+## PRE-REQUISITES.
