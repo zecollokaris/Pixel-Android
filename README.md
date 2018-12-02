@@ -84,8 +84,10 @@ Used to **redesign and enhance images**
 
 **Used in this Pixel to save images**
 
+8. **[Realtime Database](https://firebase.google.com/docs/storage/)**
+***Realtime Database*** is an effective solution with a **low delay** for mobile applications. ***The database*** is **synced** with the ***client conditions*** in a **real time**.
 
-6. **[FireBase](https://firebase.google.com/)**
+. **[FireBase](https://firebase.google.com/)**
 
 **Was used to authenticate users and register users and ensure user is logged in to run the application**
 
