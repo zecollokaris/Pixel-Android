@@ -41,3 +41,6 @@ Gradle is used as the build tool and can be installed with sdkman:
 sdk install gradle
 ```
 
+3. [Android SDK](https://developer.android.com/studio/)
+
+Android SDK used to provide all the necessary developer tools to build, test, and debug apps for Android in Windows, Mac or Linux.
