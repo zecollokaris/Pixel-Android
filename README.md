@@ -7,17 +7,17 @@
 
 ## DESCRIPTION.
 
-This is an Android photo uploading application that users can upload photos and get comments.
+**This is an Android photo uploading application that users can upload photos and get comments**.
 
 ## USER STORY.
 
-- User can Register and create an account.
+- User can **Register** and ***create an account***.
 
-- User can Login with the credentials used to sign up.
+- User can **Login** with the credentials used to ***sign up***.
 
-- User can upload photos. 
+- User can **upload photos**. 
 
-- Users can comment on uploaded photos.
+- Users can **comment** on ***uploaded photos***.
 
 ## PRE-REQUISITES.
 
@@ -44,3 +44,14 @@ sdk install gradle
 3. [Android SDK](https://developer.android.com/studio/)
 
 Android SDK used to provide all the necessary developer tools to build, test, and debug apps for Android in Windows, Mac or Linux.
+
+4. [Android Build Tools](https://developer.android.com/studio/releases/build-tools)
+
+Android SDK build tools used to debug, build, run and test an Android application.
+
+
+## TECHNOLOGIES USED:
+
+1. **[Adobe Photoshop](https://www.adobe.com/products/photoshop.html)**
+
+***Photoshop*** is a **photo editing software**.
