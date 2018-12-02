@@ -129,3 +129,8 @@ Link:-> ```https://github.com/zecollokaris/Pixel-Android```
 - Email Address: collo.kariss@gmail.com
 
 - github-username: [zecollokaris](https://github.com/zecollokaris)
+
+## LICENSE
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
