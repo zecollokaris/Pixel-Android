@@ -110,9 +110,9 @@ FireBase is a NoSQL **cloud database**. ***Data is synced across all clients in 
 
 2. You need to get into the **Pixel Android**.
 
-Link:-> ```https://github.com/zecollokaris/CryptoByte-Blockchain-Android```
+Link:-> ```https://github.com/zecollokaris/Pixel-Android```
 
-3. From there you can access **CryptoByte**.
+3. From there you can access **Pixel**.
 
 4. **Clone** the project.
 
