@@ -73,3 +73,15 @@ Used to **redesign and enhance images**
 5. **[Android Build Tools](https://developer.android.com/studio/releases/build-tools)**
 
 **For debugging, building, running and testing an Android applications.**
+
+6. **[Cloud Functions](https://firebase.google.com/docs/functions/)**
+
+**Google Cloud Functions** is a **lightweight compute solution** for developers to ***create single-purpose, stand-alone functions that respond to Cloud events without the need to manage a server or runtime environment***.
+
+7. **[Cloud Storage](https://firebase.google.com/docs/storage/)**
+
+6. **[FireBase](https://firebase.google.com/)**
+
+**Was used to authenticate users and register users and ensure user is logged in to run the application**
+
+FireBase is a NoSQL **cloud database**. Data is synced across all clients in realtime, and remains available when your app goes offline. The Firebase Realtime Database is a cloud-hosted database. Data is stored as JSON and synchronized in realtime to every connected client.
