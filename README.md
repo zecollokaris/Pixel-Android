@@ -80,6 +80,11 @@ Used to **redesign and enhance images**
 
 7. **[Cloud Storage](https://firebase.google.com/docs/storage/)**
 
+***Cloud Storage** is built for need to **store** and **serve** **large Data-sets** and user-generated content, ***such as*** **photos or videos**.
+
+**Used in this Pixel to save images**
+
+
 6. **[FireBase](https://firebase.google.com/)**
 
 **Was used to authenticate users and register users and ensure user is logged in to run the application**
