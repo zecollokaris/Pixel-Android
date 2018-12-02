@@ -65,3 +65,8 @@ Used to **redesign and enhance images**
 3. **[Gradle](https://gradle.org/)**
 
 **For dependency management and running tasks.**
+
+4. **[Android SDK](https://developer.android.com/studio/)**
+
+**For providing all the necessary developer tools to build, test, and debug Android applications on Windows, Mac or Linux.**
+
