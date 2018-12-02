@@ -1,5 +1,5 @@
 <p align="center">
-<img align="centre" width="300" src="Spec.md/Disp1.png" alt="Pixel logo" />
+<img align="centre" width="200" src="Spec.md/Disp1.png" alt="Pixel logo" />
 <p>
 
 # PIXEL :camera:
@@ -93,7 +93,7 @@ Used to **redesign and enhance images**
 
 **Cloud Functions provides two types of support:**
 
-- ***Create and configure TypeScript projects for automatic transpilation at initialization (firebase init functions)***.
+- ***Create and configure TypeScript projects for automatic transpilation at initialization*** **(firebase init functions)**.
 
 - ***Transpile existing TypeScript source to JavaScript at deploy time via a predeploy hook***.
 
@@ -101,4 +101,23 @@ Used to **redesign and enhance images**
 
 **Was used to authenticate users and register users and ensure user is logged in to run the application**
 
-FireBase is a NoSQL **cloud database**. Data is synced across all clients in realtime, and remains available when your app goes offline. The Firebase Realtime Database is a cloud-hosted database. Data is stored as JSON and synchronized in realtime to every connected client.
+FireBase is a NoSQL **cloud database**. ***Data is synced across all clients in realtime, and remains available when your app goes offline. The Firebase Realtime Database is a cloud-hosted database. Data is stored as JSON and synchronized in realtime to every connected client***.
+
+## **SETUP/INSTALLATION!**
+
+
+1. You will need **Internet connection**.
+
+2. You need to get into the **Pixel Android**.
+
+Link:-> ```https://github.com/zecollokaris/CryptoByte-Blockchain-Android```
+
+3. From there you can access **CryptoByte**.
+
+4. **Clone** the project.
+
+5. **get into project folder** (cd into project).
+
+6. If you have all the **Pre-requisites**
+
+7. Open your **Android Studio Editor and run the Application**.
