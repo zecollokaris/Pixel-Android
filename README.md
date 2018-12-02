@@ -55,3 +55,9 @@ Android SDK build tools used to debug, build, run and test an Android applicatio
 1. **[Adobe Photoshop](https://www.adobe.com/products/photoshop.html)**
 
 ***Photoshop*** is a **photo editing software**.
+
+Used to **redesign and enhance images**
+
+2. **[Java](https://java.com/en/download/)**
+
+**source language.**
