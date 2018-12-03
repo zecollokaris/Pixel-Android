@@ -55,7 +55,8 @@ Android SDK build tools used to debug, build, run and test an Android applicatio
 
 <p align="center">
 <img align="left" width="250" src="Spec.md/Disp2.png" alt="Login page" />
-<img align="right" width="250" src="Spec.md/Disp3.png" alt="Register Page" />
+<img align="center" width="250" src="Spec.md/Disp3.png" alt="Register Page"/>
+<img align="right" width="250" src="Spec.md/Disp4.png" alt="Home page" />
 <p>
 
 #### Home Page, Post & Comment.
