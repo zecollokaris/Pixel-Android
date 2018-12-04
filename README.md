@@ -20,7 +20,7 @@
 - Users can **comment** on ***uploaded photos***.
 
 <p align="center">
-<img width="250" src="https://user-images.githubusercontent.com/36197725/49420775-27d58c00-f79e-11e8-8ee3-70b4212dd0e6.gif" alt="Pixel Gif" />
+<img width="250" src="https://user-images.githubusercontent.com/36197725/49420775-27d58c00-f79e-11e8-8ee3-70b4212dd0e6.gif" alt="Pixel Screen record" />
 <p>
 
 ## PRE-REQUISITES.
